@@ -1,3 +1,5 @@
+
+<div class="app-container">
 <h1>Meal Finder</h1>
 
 <input
@@ -5,10 +7,11 @@ type="text"
 placeholder="Buscar comida"
 (input)="search($event)"
 >
+</div>
 
 <div class="meals-container">
 
-<div *ngFor="let meal of meals" class="meal-card">
+<div *ngFor="let meal of paginatedMeals" class="meal-card">
 
 <h3>{{meal.strMeal}}</h3>
 
@@ -24,6 +27,16 @@ Ver receta
 </button>
 
 </div>
+
+</div>
+
+<div class="pagination">
+
+<button (click)="prev()">Anterior</button>
+
+<span>Pagina {{currentPage}}</span>
+
+<button (click)="next()">Siguiente</button>
 
 </div>
 

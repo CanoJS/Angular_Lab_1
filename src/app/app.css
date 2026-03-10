@@ -57,3 +57,40 @@ button:hover{
 background:#00cc7a;
 
 }
+
+.pagination{
+
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:20px;
+align-items:center;
+
+}
+
+.pagination button{
+
+background:#00ff9c;
+border:none;
+padding:10px 16px;
+border-radius:8px;
+cursor:pointer;
+
+}
+
+.app-container{
+    text-align: center;
+}
+
+.app-container h1{
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.app-container input[type="text"]{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
