@@ -1,0 +1,23 @@
+<div class="modal-backdrop">
+
+<div class="modal-content">
+
+<h2>{{meal.strMeal}}</h2>
+
+<img
+[src]="meal.strMealThumb"
+width="250"
+>
+
+<p><b>Categoría:</b> {{meal.strCategory}}</p>
+<p><b>Origen:</b> {{meal.strArea}}</p>
+
+<p>{{meal.strInstructions}}</p>
+
+<button (click)="close.emit()">
+Cerrar
+</button>
+
+</div>
+
+</div>
