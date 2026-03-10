@@ -26,3 +26,24 @@ width:100%;
 max-height:80vh;
 overflow-y:auto;
 }
+
+
+.btn_c{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_c button{
+border: 1px solid #00ff9c;
+padding: 5px 10px;
+margin-top: 10px;
+text-align: center;
+border-radius: 10px;
+cursor: pointer;
+font-size: 18px;
+transition: 0.3s all ease;
+}
+
+.btn_c button:hover{
+    background: #00ff9c;
+}
