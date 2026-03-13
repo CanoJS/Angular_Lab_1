@@ -1,14 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Modal } from './components/modal/modal';
 import { MealService } from './services/api';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, Modal],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 
 export class App {
